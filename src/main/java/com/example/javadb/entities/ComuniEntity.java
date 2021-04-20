@@ -24,10 +24,10 @@ public class ComuniEntity {
     @Column(nullable = false)
     private Integer ID;
 
-    @Column(nullable = false, length = 20)
+    @Column(nullable = false, length = 30)
     private String name;
 
-    @Column(nullable = false, length = 20)
+    @Column(nullable = false, length = 30)
     private String slug;
 
     @Column(nullable = false, precision = 10, scale = 2)
