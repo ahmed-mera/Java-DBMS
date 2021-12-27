@@ -15,9 +15,9 @@ pipeline {
           }
         }
 
-        stage('') {
+        stage('Running') {
           steps {
-            sh 'java -jar $WORKSPACE/'
+            sh 'java -jar $WORKSPACE/target/Java-DB-0.0.1-SNAPSHOT.jar'
           }
         }
 
