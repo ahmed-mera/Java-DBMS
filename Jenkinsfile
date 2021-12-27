@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('SCM checkout') {
       steps {
-        git 'https://github.com/ahmed-mera/Java-DBMS.git'
+        git(url: 'https://github.com/ahmed-mera/Java-DBMS.git', branch: 'master')
       }
     }
 
