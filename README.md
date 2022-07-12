@@ -2,7 +2,7 @@
 
 ### Reference Documentation
 
-i requisiti dell'elaborato, che dovrà essere consegnato entro il 19 Aprile alle 12:00.
+i requisiti dell'elaborato.
 ---
 Si trovi in allegato i file
 comuni.csv
